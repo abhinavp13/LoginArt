@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:id="@+id/main_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/startingBackgroundColor"
+    tools:context="com.pabhinav.la.loginart.LoginActivity">
+
+
+    <at.markushi.ui.RevealColorView
+        android:id="@+id/reveal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/startingBackgroundColor"/>
+
+    <fragment android:name="com.pabhinav.la.loginart.LogoFragment"
+        android:id="@+id/animated_logo_fragment"
+        android:layout_width="305dp"
+        android:gravity = "center"
+        android:layout_height="105dp"
+        android:contentDescription="@string/app_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/scene_transition_between_elements_go_button_and_login_register_tile" />
+
+    <ImageButton
+        android:id="@+id/scene_transition_between_elements_go_button_and_login_register_tile"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle"
+        android:elevation="5dp"
+        />
+
+    <View
+        android:id="@+id/dummy_view_for_revealing_animation"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:visibility="invisible"
+        android:background="@color/startingBackgroundColor"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

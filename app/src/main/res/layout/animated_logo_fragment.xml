@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:clipToPadding="false">
+
+    <com.pabhinav.la.loginart.AnimatedLogoView
+        android:id="@+id/animated_logo"
+        android:layout_width="305dp"
+        android:gravity = "center"
+        android:layout_height="105dp"
+        android:contentDescription="@string/app_name"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
