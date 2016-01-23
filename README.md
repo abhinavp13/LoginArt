@@ -9,9 +9,7 @@ Sample Video
 
 Screenshots
 ===========
-* SVGPath Animation ![Demo Screenshot][1]
-* Bounce And Reveal ![Demo Screenshot 2][2]
-* Login And Register ![Demo Screenshot 3][3]
+![Demo Screenshot 2][1] ![Demo Screenshot 4][2] ![Demo Screenshot 3][3] 
 
 Attributions & Inspirations
 ---------------------------
