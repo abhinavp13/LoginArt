@@ -1,7 +1,7 @@
 Android LoginArt App
 ====================
 Android Open Source app providing an interesting login/register interface using scene transitions introduced in api level 19 (Kitkat).
-Also, showcases animated logo working with SVG paths.
+Also, showcases animated logo working with SVG paths. 
 
 Sample Video
 ============
